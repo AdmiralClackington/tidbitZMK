@@ -24,11 +24,11 @@
 
 		default_layer {
 			bindings = <
-								&kp KP_NUMLOCK  &kp KP_NUMLOCK &kp KP_MINUS
-				&kp KP_NUMBER_7 &kp KP_NUMBER_8 &kp KP_NUMBER_9 &kp KP_PLUS
-				&kp KP_NUMBER_4 &kp KP_NUMBER_5 &kp KP_NUMBER_6 &kp &none
-				&kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_3 &lt 1 KP_ENTER
-				&none           &kp KP_NUMBER_0 &kp KP_DOT      &none
+								&kp q  &kp w &kp e
+				&kp a &kp s &kp d &kp f
+				&kp z &kp x &kp c &kp &none
+				&kp y &kp u &kp i &kp o
+				&none           &kp h &kp j      &none
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
